@@ -1,0 +1,92 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "nQueensMoves",
+      "request": "launch",
+      "mainClass": "nQueensMoves",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "NqueensAllSolution",
+      "request": "launch",
+      "mainClass": "NqueensAllSolution",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "nQueens",
+      "request": "launch",
+      "mainClass": "nQueens",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "BST",
+      "request": "launch",
+      "mainClass": "BST",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "CoinChange",
+      "request": "launch",
+      "mainClass": "CoinChange",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "greedy",
+      "request": "launch",
+      "mainClass": "greedy",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "Dijkstra",
+      "request": "launch",
+      "mainClass": "Dijkstra",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "prims2",
+      "request": "launch",
+      "mainClass": "prims2",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "DecreasingFrequency",
+      "request": "launch",
+      "mainClass": "DecreasingFrequency",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "summa",
+      "request": "launch",
+      "mainClass": "summa",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "BinaryTreeByInsertingFromQueue",
+      "request": "launch",
+      "mainClass": "BinaryTreeByInsertingFromQueue",
+      "projectName": "placement_9b7c291b"
+    },
+    {
+      "type": "java",
+      "name": "DoublyLinkedList",
+      "request": "launch",
+      "mainClass": "DoublyLinkedList",
+      "projectName": "placement_9b7c291b"
+    }
+  ]
+}

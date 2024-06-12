@@ -1,0 +1,92 @@
+ - arrays
+	- from leetcode  and ?
+ - strings
+ - list  - sll, dll, cll
+ - stack -arr, ll
+ - queue 
+ - tree - bst, bt
+ - graph - 
+
+
+ - patterns(star,numbers,letters)
+ - dynamic programming
+ - recursion
+ - greedy
+ - backtracking
+ - math 
+ - sieves
+ - string algos
+ - standard problems
+ 
+ - sorting
+	- quick sort
+	- merge sort
+	- selection sort
+	- insertion sort
+	- exchange sort
+	- topological sort
+	- cock tail sort
+	- bubble sort
+	- 
+
+
+ - collections 
+	- array list
+	- stack
+	- hash set
+	- hash map
+	- tree map
+	- queue
+	- collection methods
+
+ - oops
+	- object
+	- constructors
+	- inheritence
+	- polymorphism
+	- encapsulation
+	- abstraction
+	- method and class overloading and overriding
+	
+
+ - core java
+	- packages
+	- methods
+	- libraries
+	- static block
+	- calls
+	- time and space complexity
+
+ - os 
+	- memory management
+	- addressing
+	- virtual machine
+	- ......
+
+ - dbms
+	- database types
+	- rdbms , sql, nosql, 
+	- normalization
+	- 1nf, 2nf, 3nf, 4nf, 5nf
+	- dml
+	- ddl
+	- dcl
+	- tcl 
+	- 
+ 
+
+ - cloud
+	- aws
+	- firebase
+	- docker
+	- ....
+
+ - testing
+	- types
+	- needs
+	- tools
+	- .....
+
+ - aptitude
+ - communication
+ - 

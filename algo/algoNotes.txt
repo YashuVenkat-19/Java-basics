@@ -1,0 +1,64 @@
+ALGORITHMS
+
+# what is algo?
+# what is time complexity?
+# what is space complexity?
+
+
+# what is recursion?
+    calling a copy of its own function is called recursion
+
+# tail recursion and back recursion?
+
+# Prime number algo - see the factors till squareroot of the number
+# recusion acts like a tree - 
+    one alteration part and add or mul with incremented or decremented part
+    edge cases return for one and zero or lesser
+
+# mod 9 (%9) /cast away - concept - sum of digits of a number(till it reaches a single digit) is equal to the number mod 9
+    if the number is divisible by 9 then sum of digits is 9
+
+# sieve of eratosthenes - algo to find prime numbers till a number(n)
+    runs from 2 till root of n
+    when you find a prime number delete its multiple till n
+
+
+# minimum cost spanning tree
+--> prims ALGORITHMS
+--> kruskals ALGORITHMS 
+
+# BACKTRACKING
+    -> permutations of a string - run fn from start to end if start = end return answer
+                                - else swap characters and then run for loop from start to end
+                                - swap fn => take string and start and i as parameters and in char array of string swap 
+                                - the start and ith characters and return string of that array
+
+
+# DYNAMMIC PROGRAMMING
+    -> longest common substring - if character matches add 1 with diagonal element and take the 
+                                - max of previously max and value at calulated node
+
+    -> longest common subsequence  - if character matches add 1 to diagonal element and take the 
+                                   - max of top node and left node and the last corner node will be the answer
+
+    -> longest palindrome  - take the string and create a copy of reverse of it and run LCS for these two
+
+    -> subset sum - create a boolean matrix ,sizes => row --->no. of array elements and col ---> sum
+                  - first col must be one and first row except first element must be false
+                  - remaining nodes put previous rows boolean value
+                  - from the column greater than current row array element do OR operation for that node and the node that is array element times before current node
+                  - if(i> arr[j-1]){ arr[i][j] = arr[i][j] || arr[i][j-arr[j-1]][j-1] }
+
+    -> floyd - minimum distances between vertices in a directed weighted cyclic graph with edges = v-1
+             - distance matrix and original matrix to size VxV assign 0 to main diagonal and INF to others
+             - edit the distance matrix element to distance through a point i.e., D[k](i,j) = D[k-1](i,k)+D[k-1](k,j);
+             -  if(dist[i][k]+dist[k][j]<dist[i][j]){ dist[i][j] = dist[i][k]+dist[k][j]; } 
+
+    -> levenshtein / edit distance - number of changes to be done to change from one string to another
+                                   - fill row and cols in 1,2,3,4,...
+                                   - if character matches then assign the value of diagonal node 
+                                   - else find minimum of diagonal, left, and top node and assign to current node
+                                   - last corner node gives num of changes
+
+
+# s
